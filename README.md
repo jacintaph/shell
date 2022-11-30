@@ -21,3 +21,5 @@ A main menu will be visible after every command log. An example of the menu and 
   6. Print the content of the file 'filename':             < get 'filename' >
   7. End the program:                                      < quit >
   ---
+
+Command 5. can optionally include the [-f] flag. This flag overwrites an existing folder with the same name as 'dirname'. If the user does not enter the flag and the folder already exists, an error message will be shown.
